@@ -1,0 +1,15 @@
+mkdir ex02 - criar a pasta
+cd ex02 - entrar na pasta
+New-Item index.ts -ItemType File - criar o arquivo
+cd .. - voltar
+
+
+Sempre execute este comando na pasta principal Exercicios :
+npx tsc
+
+Executar um exercício :
+node dist/ex01/index.js
+
+
+Quando modificar o código :
+npx tsc - Compile novamente 
